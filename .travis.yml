@@ -1,7 +1,7 @@
 language: java
+dist: trusty
 sudo: required
 before_install:
-  - sudo apt-get update
   - sudo apt-get install thrift-compiler
 script:
   - ./gradlew build
