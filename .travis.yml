@@ -4,4 +4,4 @@ jdk:
 addons:
   apt:
     packages:
-    - libthrift
+    - thrift-compiler
