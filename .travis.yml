@@ -2,6 +2,8 @@ language: java
 jdk:
 - oraclejdk8
 addons:
+  sources:
+  - debian-sid
   apt:
     packages:
     - thrift-compiler
